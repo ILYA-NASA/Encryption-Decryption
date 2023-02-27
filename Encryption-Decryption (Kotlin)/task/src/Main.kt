@@ -1,21 +1,11 @@
 package encryptdecrypt
 
-import kotlin.math.abs
-
-fun main() {
-    getEncrypt(readln(), readln().toInt())
+fun main() = when (readln()) {
+    "enc" -> getEncrypt(readln(), readln().toInt())
+    "dec" -> getDecrypt(readln(), readln().toInt())
+    else -> print("invalid input")
 }
 
-fun getEncrypt(secret: String, key: Int) {
-    val alphabet = "abcdefghijklmnopqrstuvwxyz".toList()
-    secret.forEach {
-        print(
-            if (it.isLetter()) {
-                if (alphabet.indexOf(it) + key > alphabet.size)
-                    alphabet[abs(alphabet.size - (alphabet.indexOf(it) + key))]
-                else alphabet[alphabet.indexOf(it) + key]
-            } else it
-        )
-    }
-}
+fun getEncrypt(futureSecret: String, key: Int) = futureSecret.forEach { print(it + key) }
 
+fun getDecrypt(secret: String, key: Int) = secret.forEach { print(it - key) }
