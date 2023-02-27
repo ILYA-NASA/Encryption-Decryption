@@ -8,7 +8,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="jbr-17 (2)" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -26,6 +26,12 @@
             <option value="$PROJECT_DIR$/Topics/Constructors/Pets" />
             <option value="$PROJECT_DIR$/Topics/Constructors/Point2D" />
             <option value="$PROJECT_DIR$/Topics/Constructors/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Currencies" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Danger level" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Days of the week" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Properties of Enum" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Rainbow colors" />
+            <option value="$PROJECT_DIR$/Topics/Enum/Theory" />
             <option value="$PROJECT_DIR$/Topics/For loop and lists/Individual taxes" />
             <option value="$PROJECT_DIR$/Topics/For loop and lists/Print all elements" />
             <option value="$PROJECT_DIR$/Topics/For loop and lists/Right Rotation" />
@@ -51,6 +57,7 @@
             <option value="$PROJECT_DIR$/Topics/Processing strings/Determine the output" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Determine the value" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Determine the value (1)" />
+            <option value="$PROJECT_DIR$/Topics/Processing strings/Double characters" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/The lucky ticket" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/The percentage of G and C characters" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Theory" />
@@ -83,8 +90,10 @@
             <option value="$PROJECT_DIR$/Topics/Work with MutableLists/Theory" />
             <option value="$PROJECT_DIR$/Topics/Work with MutableLists/Yet another list" />
             <option value="$PROJECT_DIR$/Topics/Working with strings/Correct operations" />
+            <option value="$PROJECT_DIR$/Topics/Working with strings/Last symbol" />
             <option value="$PROJECT_DIR$/Topics/Working with strings/Operations and truth" />
             <option value="$PROJECT_DIR$/Topics/Working with strings/The information about a person" />
+            <option value="$PROJECT_DIR$/Topics/Working with strings/The same line" />
             <option value="$PROJECT_DIR$/Topics/Working with strings/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
