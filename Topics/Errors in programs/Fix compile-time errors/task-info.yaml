@@ -4,13 +4,17 @@ files:
   visible: true
   text: |-
     fun main() {
-        // Write some code to cause an exception
+        val line1 = nextLine()
+        val line2 = nextLine()
+
+        println(line1)
+        println(line2)
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/7247#comment
+feedback_link: https://hyperskill.org/learn/step/11564#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: "Sat, 04 Mar 2023 15:52:13 UTC"
+  time: "Sat, 04 Mar 2023 11:58:26 UTC"
 record: -1
 submission_language: kotlin
