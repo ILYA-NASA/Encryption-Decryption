@@ -8,7 +8,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="gradleJvm" value="jbr-17 (2)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -82,6 +82,12 @@
             <option value="$PROJECT_DIR$/Topics/Invoking functions/Returning a result" />
             <option value="$PROJECT_DIR$/Topics/Invoking functions/Subtraction function" />
             <option value="$PROJECT_DIR$/Topics/Invoking functions/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/ Not  predicate" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Capturing variable" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Function composition" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Max" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Polynomial" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Theory" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Compression algorithm" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Convert a date" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Create an euphonious word" />
@@ -113,6 +119,7 @@
             <option value="$PROJECT_DIR$/Topics/Secondary constructor/This keyword" />
             <option value="$PROJECT_DIR$/Topics/Secondary constructor/Validation" />
             <option value="$PROJECT_DIR$/Topics/String arrays/Adding arrays" />
+            <option value="$PROJECT_DIR$/Topics/String arrays/Guard On The Gate" />
             <option value="$PROJECT_DIR$/Topics/String arrays/Help the Lord Commander" />
             <option value="$PROJECT_DIR$/Topics/String arrays/Initialization" />
             <option value="$PROJECT_DIR$/Topics/String arrays/Theory" />
@@ -139,6 +146,7 @@
             <option value="$PROJECT_DIR$/Topics/While loops/Choose the correct ones" />
             <option value="$PROJECT_DIR$/Topics/While loops/Collatz conjecture" />
             <option value="$PROJECT_DIR$/Topics/While loops/Squares of natural numbers" />
+            <option value="$PROJECT_DIR$/Topics/While loops/The first position of the largest element" />
             <option value="$PROJECT_DIR$/Topics/While loops/The largest element" />
             <option value="$PROJECT_DIR$/Topics/While loops/The sum of elements" />
             <option value="$PROJECT_DIR$/Topics/While loops/Theory" />
