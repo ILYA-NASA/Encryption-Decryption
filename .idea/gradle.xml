@@ -87,6 +87,9 @@
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Function composition" />
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Max" />
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Polynomial" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Range multiplication" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Syntactic sugar" />
+            <option value="$PROJECT_DIR$/Topics/Lambda expressions/Syntax" />
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Theory" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Compression algorithm" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Convert a date" />
