@@ -1,9 +1,11 @@
 package encryptdecrypt
 
 import java.io.File
+import kotlin.math.abs
 
 fun main(args: Array<String>) {
 
+    val alg = args[args.indexOf("-alg") + 1]
     val mode = args[args.indexOf("-mode") + 1]
     val key = args[args.indexOf("-key") + 1].toInt()
     val data = args[args.indexOf("-data") + 1]
@@ -15,29 +17,51 @@ fun main(args: Array<String>) {
 
     val outFile = File(outFileName)
 
-//    val encryptText = ::getEncrypt
-//    val decryptText = ::getDecrypt
-
-    when (mode) {
-    "dec" -> outFile.writeText(getDecrypt(inFileData, key))
-    else -> outFile.writeText(getEncrypt(inFileData, key))
+    if (alg == "unicode") {
+        if (mode == "dec") outFile.writeText(getUnicodeDecrypt(inFileData, key))
+        else outFile.writeText(getUnicodeEncrypt(inFileData, key))
+    } else {
+        if (mode == "dec") outFile.writeText(getShiftDecrypt(inFileData, key))
+        else outFile.writeText(getShiftEncrypt(inFileData, key))
     }
-
 }
 
-fun getEncrypt(data: String, key: Int): String {
+fun getUnicodeEncrypt(data: String, key: Int): String {
     var result = ""
     data.forEach { result += it + key }
-//    println(result)
     return result
 }
 
-fun getDecrypt(data: String, key: Int): String {
+fun getUnicodeDecrypt(data: String, key: Int): String {
     var result = ""
-    //    println(result)
     data.forEach { result += it - key }
     return result
 }
 
-//mode: String = "enc", key: Int = 0, data: String = "",
-//inFileName: String = "", outFileName: String = "",
+fun getShiftEncrypt(data: String, key: Int): String {
+    var result = ""
+    val alphabet = "abcdefghijklmnopqrstuvwxyz".toList()
+    data.forEach {
+        result +=
+            if (it.isLetter()) {
+                if (alphabet.indexOf(it) + key > alphabet.size)
+                    alphabet[abs(alphabet.size - (alphabet.indexOf(it) + key))]
+                else alphabet[alphabet.indexOf(it) + key]
+            } else it
+    }
+    return result
+}
+
+fun getShiftDecrypt(data: String, key: Int): String {
+    var result = ""
+    val alphabet = "abcdefghijklmnopqrstuvwxyz".toList()
+    data.forEach {
+        result +=
+            if (it.isLetter()) {
+                if (alphabet.indexOf(it) - key < 0)
+                    alphabet[alphabet.size - abs(alphabet.indexOf(it) - key)]
+                else alphabet[alphabet.indexOf(it) - key]
+            } else it
+    }
+    return result
+}
