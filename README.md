@@ -1,8 +1,8 @@
 # [Шифрование-дешифрование](https://hyperskill.org/projects/279?track=18)
 
-![image](https://user-images.githubusercontent.com/99810114/219961329-d6f896bf-796d-4d36-b2db-7866e40b247a.png)
+## Реализуя этот проект, я научился работать с файлами и шифровать данные, используя при этом командную строку для передачи ключей и режимов шифрования. 
 
-## [Основной трек](https://github.com/ILYA-NASA/Encryption-Decryption/tree/master/Encryption-Decryption%20(Kotlin)) проекта
+## Для завершения [основного трека проекта](https://github.com/ILYA-NASA/Encryption-Decryption/tree/master/Encryption-Decryption%20(Kotlin)) мне потребовалось [реализовать](https://github.com/ILYA-NASA/Encryption-Decryption/blob/master/Encryption-Decryption%20(Kotlin)/task/src/Main.kt) алгоритмы шифрования Ceasar и Unicode. 
 
-## [Задачи](https://github.com/ILYA-NASA/Encryption-Decryption/tree/master/Topics), решенные при изучении тем проекта. 
+## Кроме того, репозиторий содержит пуши [задач](https://github.com/ILYA-NASA/Encryption-Decryption/tree/master/Topics), решенных при изучении сопутствующих проекту тем. 
 
